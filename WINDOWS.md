@@ -12,10 +12,9 @@ https://git-scm.com/downloads/win, and Google Chrome. Install ngrok by following
 https://dashboard.ngrok.com/get-started/setup/windows dashboard instructions.
 Authenticate ngrok locally using that dashboard; never paste its token into chat.
 
-Extract the supplied `flowmcp-windows.zip` to a normal local folder such as
-`C:\FlowMCP\gateway`, outside OneDrive. This code is not pushed to GitHub; cloning
-the original empty `abishek2605/flowmcp` repository will not retrieve these changes.
-Open PowerShell in the extracted folder and run:
+Clone https://github.com/abishek2605/flowmcp to a normal local folder such as
+`C:\FlowMCP\gateway`, outside OneDrive, or extract the supplied `flowmcp-windows.zip`.
+Open PowerShell in that folder and run:
 
 ```powershell
 powershell -NoProfile -File .\scripts\install-windows.ps1
